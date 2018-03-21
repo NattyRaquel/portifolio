@@ -1,0 +1,65 @@
+h1{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+body{
+	background-image: url("/portifolio/anime.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+}
+p,a,label,table{
+	color: white;
+}
+.link{
+	text-align: center;
+}
+label{
+    display: inline-block;
+    width: 150px;
+}
+fieldset{
+	width: 50%;
+	padding: 25px 25px;
+	position: absolute;
+	margin-left: 300px;
+	border-radius: 25px;
+	text-align: center;
+}
+a{
+	font-size: 20px;
+	margin: 0 auto;
+	text-decoration: none;
+}
+td, th {
+  margin: 0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+td{
+  font-weight:bold;
+  background-color: #CR4567;
+}
+
+table{
+  border-collapse: collapse;
+  width: 700px;
+  table-layout: fixed;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.botao{
+  background: none;
+  color: white;
+  border: 1px solid #45981B;
+  border-radius: 70px;
+  cursor: pointer;
+  font-size: 15px;
+  outline: none;
+  padding: 10px 50px;
+  transition: padding 500ms ease-in-out;
+  box-shadow: 0 0 0 0 rgba(69, 152, 27, 0.5);
+  cursor: pointer;
+}
